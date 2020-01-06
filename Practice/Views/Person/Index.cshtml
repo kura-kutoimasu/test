@@ -1,0 +1,10 @@
+﻿@model IEnumerable<PersonViewModel>
+
+@foreach (var person in Model)
+{
+    <p>@person.Fname</p>
+    <p>@person.Lname</p>
+    <p>@person.Address</p>
+    <p>@person.Bdate</p>
+}
+
